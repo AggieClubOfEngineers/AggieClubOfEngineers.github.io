@@ -1,166 +1,48 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    scroll-behavior: smooth;
 }
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
-  height: 10vh;
-  margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#intro {
+    height: 100vh;
 }
-
-body {
-  background-color: #254e58;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  color: #fff;
-}
-
 h1, h2, h3, h4, h5 {
-  font-weight: bold;
+    font-weight: bold;
+    color: #fff
 }
 
-h1 {
-  font-size: 72px;
+.navbar {
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+  }
+
+.navbar.scrolled{
+    background: #88bdbc;
 }
 
-h2 {
-  font-size: 54px;
+#intro {
+    background: url("../img/campus_aerial.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.nav-bar {
-  -webkit-box-shadow: 0px 0px 10px;
-  box-shadow: 0px 0px 10px;
-  background-color: white;
-  overflow: hidden;
-  position: fixed;
-  z-index: 100;
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  width: 100%;
-  /* Full width */
+.title {
+    text-shadow: 1px 1px #000;
 }
 
-.nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.pillars {
+    background-color: #254e58;
 }
 
-.nav-link:hover {
-  color: #88bdbc;
-}
-
-.logo {
-  font-weight: 400;
-  margin: 5px;
-}
-
-nav {
-  -webkit-box-flex: 5;
-  -ms-flex: 5;
-  flex: 5;
-}
-
-.nav-links {
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.nav-link {
-  font-size: 20px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: black;
-}
-
-.active-page {
-  color: #88bdbc;
-}
-
-.about-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-/*# sourceMappingURL=style.css.map */
-
-.showcase {
-  /* fluid container */
-  display: flex;
-  margin-top: 10vh;
-  min-height: 90vh;
-  min-width: 100vw;
-  background-color: #254e58;
-  background-image: url(../img/acad_build_blur.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-}
-
-.main-title {
-  /* row */
-  text-align: center;
-  min-height: 100%;
-}
-
-.titles {
-  text-shadow: 2px 2px #000;
-}
-
-.container {
-  display: flex;
-  /* text-align: center; */
-  align-content: flex-start;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  color: #254e58;
-}
-
-.buffer {
-  display: block;
-  margin: auto;
-  width: 100%;
-  max-width: 1500px;
-  background-color: #fff;
-}
-
-.letter {
-  z-index: 1;
-  margin: -75px 15% 10% 15%;
-  padding: 75px 30px 50px 30px;
-  background-color: #efe4d2;
-  border-radius: 3px;
-  box-shadow: 20px 20px 20px 4px #0f0f0f;
-}
-
-.letter p {
-  font-family: 'Kalam', cursive;
-  text-align: justify;
-  align-self: center;
-  font-size: 24px;
-}
-
-.portrait {
-  z-index: 2;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-left: 8%;
-}
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #88bdbc;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #88bdbc
+    }
+  }
