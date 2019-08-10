@@ -43,17 +43,8 @@ h5 {
   text-shadow: 1px 1px #000;
 }
 
-.active {
-  color: rgb(255, 255, 255) !important;
-  font-weight: 800 !important;
-}
-
-.inactive {
-  color: white !important;
-}
-
 .navbar.scrolled {
-  background: #88bdbc;
+  background: #3a424f;
 }
 
 #intro {
@@ -75,11 +66,10 @@ h5 {
 
 #who-we-are-text {
   font-size: 1.25rem;
-  text-align: justify;
 }
 
 .pillars {
-  background-color: #254e58;
+  background-color: #3a424f;
 }
 
 .letter {
@@ -103,11 +93,11 @@ h5 {
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background-color: #88bdbc;
+    background-color: #2f4872;
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-    background-color: #88bdbc;
+    background-color: #2f4872;
   }
 }
