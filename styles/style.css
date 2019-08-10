@@ -18,7 +18,7 @@ h5 {
 #wolf-logo {
   height: 45px;
   filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(156deg)
-    brightness(108%) contrast(102%) drop-shadow(3px 3px 2px rgba(0, 0, 0, 1));
+    brightness(108%) contrast(102%) drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.75));
 }
 
 .main-title {
@@ -32,28 +32,35 @@ h5 {
 
 .navbar {
   background: transparent;
-  color: #fff;
   text-transform: uppercase;
 }
 
 .nav-item {
-  margin-left: 1.7rem !important;
+  margin-left: 1.7rem !important; /* Add more space between nav items */
   margin-right: 1.7rem !important;
   font-size: 17px;
   text-shadow: 1px 1px #000;
 }
 
+.active {
+  font-weight: 900 !important;
+}
+
+.inactive {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 .nav-link:hover {
-  color: rgb(255, 255, 255, 1) !important; /* override bootstrap highlighting */
+  color: #ffffff !important; /* override bootstrap highlighting */
 }
 
 .navbar.scrolled {
-  background: #3a424f;
+  background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f05);
 }
 
 #intro {
   height: 100vh;
-  background: url("../img/campus_aerial_blur.jpg") no-repeat center center fixed;
+  background: url("../img/acad_build_blur.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
