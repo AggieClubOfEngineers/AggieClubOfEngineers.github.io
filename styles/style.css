@@ -43,6 +43,10 @@ h5 {
   text-shadow: 1px 1px #000;
 }
 
+.nav-link:hover {
+  color: rgb(255, 255, 255, 1) !important; /* override bootstrap highlighting */
+}
+
 .navbar.scrolled {
   background: #3a424f;
 }
