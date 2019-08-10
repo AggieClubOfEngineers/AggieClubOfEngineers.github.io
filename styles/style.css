@@ -1,39 +1,85 @@
 * {
-    font-family: "Roboto Condensed", sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-#intro {
-    height: 100vh;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  color: #fff;
 }
-h1, h2, h3, h4, h5 {
-    font-weight: bold;
-    color: #fff
+
+#wolf-logo {
+  height: 45px;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(156deg)
+    brightness(108%) contrast(102%) drop-shadow(3px 3px 2px rgba(0, 0, 0, 1));
+}
+
+.main-title {
+  font-size: 3.75rem;
+  padding-top: 0px !important; /* To move the text up a little */
+}
+
+.sub-title {
+  font-size: 2.5rem;
 }
 
 .navbar {
-    background: transparent;
-    color: #fff;
-    font-size: 20px;
-  }
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
 
-.navbar.scrolled{
-    background: #88bdbc;
+.nav-item {
+  margin-left: 1.7rem !important;
+  margin-right: 1.7rem !important;
+  font-size: 17px;
+  text-shadow: 1px 1px #000;
+}
+
+.active {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 800 !important;
+}
+
+.inactive {
+  color: white !important;
+}
+
+.navbar.scrolled {
+  background: #88bdbc;
 }
 
 #intro {
-    background: url("../img/campus_aerial.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: 100vh;
+  background: url("../img/campus_aerial_blur.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .title {
-    text-shadow: 1px 1px #000;
+  text-shadow: 1px 1px #000;
+}
+
+#who-we-are {
+  font-size: 2.75rem;
+}
+
+#who-we-are-text {
+  font-size: 1.25rem;
+  text-align: justify;
 }
 
 .pillars {
-    background-color: #254e58;
+  background-color: #254e58;
 }
 
 .letter {
@@ -47,21 +93,21 @@ h1, h2, h3, h4, h5 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  box-shadow: 2px 2px 15px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
 }
 
 .letter-text {
-  box-shadow: 3px 3px 15px 6px rgba(0,0,0,0.3);
-  background-color: #F9F4EE;
+  box-shadow: 3px 3px 15px 6px rgba(0, 0, 0, 0.3);
+  background-color: #f9f4ee;
 }
 
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #88bdbc;
-    }
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #88bdbc;
   }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #88bdbc
-    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #88bdbc;
   }
+}
