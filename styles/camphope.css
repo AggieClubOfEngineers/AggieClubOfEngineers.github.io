@@ -1,0 +1,19 @@
+.about-ch{
+}
+
+#about-title{
+    font-size: 36px;
+}
+
+#about-text{
+    font-size: 20px;
+}
+
+#ptsd-link{
+    text-decoration: none;
+    color: grey;
+}
+
+#ptsd-link:hover{
+    color:blue;
+}
