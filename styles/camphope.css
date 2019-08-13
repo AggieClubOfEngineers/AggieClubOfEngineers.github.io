@@ -1,4 +1,15 @@
+body{
+    background-color: #3a424f70;
+}
+
 .about-ch{
+    color: #ffffff !important;
+    text-shadow: 1px 1px black;
+}
+
+hr{
+    background-color: #fff;
+    text-shadow: 1px 4px black !important;
 }
 
 #about-title{
@@ -11,9 +22,13 @@
 
 #ptsd-link{
     text-decoration: none;
-    color: grey;
+    color:#9999A1;
 }
 
 #ptsd-link:hover{
-    color:blue;
+    color:#000;
+}
+
+#cfh-group{
+   width: 82%;
 }
