@@ -1,10 +1,10 @@
 body{
-    background-color: #3a424f70;
+    background-color: #fff;
 }
 
 .about-ch{
     color: #ffffff !important;
-    text-shadow: 1px 1px black;
+    /* text-shadow: 1px 1px black; */
 }
 
 hr{
@@ -31,4 +31,9 @@ hr{
 
 #cfh-group{
    width: 82%;
+}
+
+
+.ch-description{
+    color: #343a40 !important;
 }
