@@ -36,6 +36,10 @@ h5 {
   background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f05);
 }
 
+.navbar a{
+  color: rgba(211, 211, 211, 0.8);
+}
+
 .nav-item {
   margin-left: 1.7rem !important; /* Add more space between nav items */
   margin-right: 1.7rem !important;
@@ -45,23 +49,26 @@ h5 {
 
 .active {
   font-weight: 900 !important;
+  font-weight: bold !important;
+  color: #fff !important;
 }
 
-.inactive {
+/* .inactive {
   color: rgba(255, 255, 255, 0.8) !important;
-}
+} */
 
 .nav-link:hover {
   color: #ffffff !important; /* override bootstrap highlighting */
 }
 
 .navbar.scrolled {
-  background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f00);
+  background-color: #88bdbc;
+  background-image: none;
 }
 
 #intro {
   height: 100vh;
-  background: url("../img/zeec_blur.jpg") no-repeat center center fixed;
+  background: url("../img/campus_aerial.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

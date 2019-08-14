@@ -12,46 +12,47 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <title>Aggie Club of Engineers</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-          <div class="container-fluid">
-          <!-- logo left -->
-          <a class="navbar-brand pull-left logo" href="./index.html">
-              <img src="./img/logos/wolf_logo.svg" id="wolf-logo" class="d-inline-block align-top" alt="logo">
-          </a>
-          <!-- to make burger appear -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul class="navbar-nav mx-auto text-center align-items-center">
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 inactive" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 smooth-scroll inactive" href="./index.html#about-us">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 active font-weight-bold" href="#">Camp Hope</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 inactive" href="./officers.html">Officers</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 inactive" href="./admissions.html">Admissions</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link mx-2 inactive" href="./contact.html">Contact</a>
-                  </li>
-              </div>
-          </div>
-      </nav>
-            <!-- /navbar -->
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+            <!-- logo left -->
+            <a class="navbar-brand pull-left logo" href="#">
+                <img src="./img/logos/wolf_logo.svg" id="wolf-logo" class="d-inline-block align-top" alt="logo">
+            </a>
+            <!-- to make burger appear -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav mx-auto text-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 smooth-scroll" href="./index.html#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#ch-intro">Camp Hope</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./officers.html">Officers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./admissions.html">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- /navbar -->
     </header>
     <main>
-    <section  class="animated fadeInDownBig fast">
+    <section class="animated fadeInDownBig fast" id="ch-intro">
         <div class="container">
             <div class="row mt-5 mx-0">
                 <div class="col px-5 pt-5 pb-3">
