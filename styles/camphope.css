@@ -3,8 +3,10 @@ body{
 }
 
 .about-ch{
-    color: #ffffff !important;
+    color: #343a40 !important;
     /* text-shadow: 1px 1px black; */
+    box-shadow: 3px 3px 15px 6px rgba(0, 0, 0, 0.3);
+    
 }
 
 hr{
@@ -33,7 +35,13 @@ hr{
    width: 82%;
 }
 
-
 .ch-description{
     color: #343a40 !important;
+}
+
+.parallax{
+    background: url('../img/military_branches.jpg') no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 25vw;
 }
