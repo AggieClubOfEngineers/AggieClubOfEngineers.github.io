@@ -1,51 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="./img/logos/20x20_black.png" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/camphope.css">
+    <link rel="stylesheet" href="./styles/officers.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <title>Aggie Club of Engineers</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="icon" href="img/20x20_black.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- nav bar + logo -->
-    <div class="nav-bar">
-      <header>
-        <div class="logo-container">
-          <a href="#"><img src="./img/Wolf_SVG.svg" alt="logo"/></a>
-        </div>
-        <nav>
-          <ul class="nav-links">
-            <li>
-              <a href="./index.html" class="nav-link">HOME</a>
-            </li>
-            <li>
-              <a href="./about.html" class="nav-link">ABOUT US</a>
-            </li>
-            <li><a href="./camphope.html" class="nav-link">CAMP HOPE</a></li>
-            <li>
-              <a href="./officers.html" class="nav-link active-page"
-                >OFFICERS</a
-              >
-            </li>
-            <li>
-              <a href="./admissions.html" class="nav-link">ADMISSIONS</a>
-            </li>
-            <li>
-              <a href="./contact.html" class="nav-link">CONTACT</a>
-            </li>
-          </ul>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+            <!-- logo left -->
+            <a class="navbar-brand pull-left logo" href="./index.html">
+                <img src="./img/logos/wolf_logo.svg" id="wolf-logo" class="d-inline-block align-top" alt="logo">
+            </a>
+            <!-- to make burger appear -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav mx-auto text-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 smooth-scroll" href="./index.html#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./camphope.html">Camp Hope</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#officers">Officers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./admissions.html">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-      </header>
-      <script src="logic/logic.js"></script>
-    </div>
+        <!-- /navbar -->
+    </header>
+    <main>
+      <section id="officers">
+        <div class="blank-space"></div>
+        <div class="container-fluid mx-0 px-0">
+          <div class="row mx-0 px-0 my-auto">
+            <div class="col-12 mx-0 px-0">
+              <h1 class="text-white staff-title text-end px-3 py-2">Executive Staff<hr></h1>
+            </div>
+          </div>
+        </div>
+        <div class="containter">
+          <div class="row my-3 mx-2 justify-content-center">
+            <div class="text-center mb-3 mx-1">
+              <img src="img/officers/rm.jpg" alt="ray-mishra" class="img-fluid">
+            </div>
+            <div class="text-center mb-3 mx-1">
+              <img src="img/officers/rt.jpg" alt="robert-todd" class="img-fluid">
+            </div>
+            <div class="text-center mb-3 mx-1">
+              <img src="img/officers/ja.jpeg" alt="jared-arend" class="img-fluid">
+            </div>
+            <div class="text-center mb-3 mx-1">
+              <img src="img/officers/Andrew_Singer.jpg" alt="andrew-singer" class="img-fluid">
+            </div>
+            <div class="text-center mb-3 mx-1">
+              <img src="img/officers/tw.jpg" alt="tyler-wooten" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="logic/logic.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
