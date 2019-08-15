@@ -1,6 +1,31 @@
-
+body{
+  height: 100vh;
+  background: url("../img/zeec.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 hr{
-    width: 35%;
     margin: 0 auto;
-    color: #fff !important;
+    border-color: #ffffff;
+}
+
+main{
+    color: #ffffff; 
+    text-shadow: 1px 1px black;   
+}
+
+.social-info{
+    background: #3a424fd7;
+    border-radius: 5px;
+}
+
+.email{
+    color: rgb(183, 183, 183);
+}
+
+.email:hover{
+    text-decoration: none;
+    color: red;
 }
