@@ -28,7 +28,8 @@ hr{
 }
 
 #ptsd-link:hover{
-    color:#000;
+    color:#343A40;
+    font-weight: bold;
 }
 
 #cfh-group{

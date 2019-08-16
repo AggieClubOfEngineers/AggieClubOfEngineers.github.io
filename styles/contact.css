@@ -7,6 +7,7 @@ body{
   background-size: cover;
 }
 hr{
+    width: 50%;
     margin: 0 auto;
     border-color: #ffffff;
 }
@@ -16,9 +17,9 @@ main{
     text-shadow: 1px 1px black;   
 }
 
+
 .social-info{
-    background: #3a424fd7;
-    border-radius: 5px;
+    background: rgba(40, 56, 69, 0.75);
 }
 
 .email{
@@ -27,5 +28,5 @@ main{
 
 .email:hover{
     text-decoration: none;
-    color: red;
+    color: #ffffff;
 }
