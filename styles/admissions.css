@@ -1,0 +1,10 @@
+hr{
+    width: 25%;
+    margin: 0 auto;
+    border-color: #000;
+}
+
+.box{
+    box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
