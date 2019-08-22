@@ -21,6 +21,10 @@ hr{
     transition: .5s ease;
     background-color: #aeaeae;
   }
+
+.headshot{
+    padding: 1px !important;    
+}
   
 .headshot:hover .overlay {
     opacity: 0.90;
@@ -43,6 +47,20 @@ hr{
     text-align: center;
 }
 
+.card{
+    border-radius: 0rem;
+}
+
+.card img{
+    position: relative;
+    float: left;
+    width:  100%;
+    height: 175px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 0rem;
+}
 @media (max-width: 768px){
     .info-logo{
         display: none;
