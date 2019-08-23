@@ -49,6 +49,7 @@ hr{
 
 .card{
     border-radius: 0rem;
+    border:none;
 }
 
 .card img{
@@ -60,6 +61,7 @@ hr{
     background-repeat:   no-repeat;
     background-size:     cover;
     border-radius: 0rem;
+    overflow: hidden;
 }
 @media (max-width: 768px){
     .info-logo{
