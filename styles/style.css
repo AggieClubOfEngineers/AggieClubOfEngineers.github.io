@@ -121,6 +121,24 @@ h5 {
   background-color: #fff;
 }
 
+@media (max-width: 1175px){
+  .nav-item{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1085px){
+  .nav-item{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1025px){
+  .nav-item{
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
     background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f00);

@@ -15,8 +15,8 @@ hr{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    width:  180.33px;
+    height: 175px;
     opacity: 0;
     transition: .5s ease;
     background-color: #aeaeae;
@@ -55,16 +55,24 @@ hr{
 .card img{
     position: relative;
     float: left;
-    width:  100%;
+    width:  180.33px;
     height: 175px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
     border-radius: 0rem;
     overflow: hidden;
+    max-width: none !important;
 }
 @media (max-width: 768px){
     .info-logo{
         display: none;
+    }
+
+    .informationals{
+        font-size: 14px;
+    }
+    .admissions-team{
+        margin-left: 60px !important;
     }
 }
