@@ -47,19 +47,19 @@
     text-align: center;
 }
 
-.card-officers{
+.card{
     border-radius: 0rem;
     border:none;
 }
 
-.card-officers img{
+.card img{
     position: relative;
     float: left;
-    width:  100%;
-    height: 100%;
+    /* max-width:  225px; */
+    max-height: 260px;
     background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0rem;
     overflow: hidden;
     max-width: none !important;
