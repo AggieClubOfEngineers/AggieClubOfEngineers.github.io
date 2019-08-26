@@ -50,13 +50,14 @@
 .card{
     border-radius: 0rem;
     border:none;
+    height: 250px;
+    width: 220px;
 }
 
 .card img{
     position: relative;
     float: left;
-    /* max-width:  225px; */
-    max-height: 260px;
+    height: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
