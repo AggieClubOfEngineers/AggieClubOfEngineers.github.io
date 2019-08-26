@@ -8,3 +8,59 @@
     border-top: 2px solid #fff;
     margin: 0px;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:  180.33px;
+    height: 175px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #aeaeae;
+  }
+
+.headshot{
+    padding: 1px !important;    
+}
+  
+.headshot:hover .overlay {
+    opacity: 0.90;
+}
+
+.headshot:active .overlay {
+    opacity: 0.90;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card{
+    border-radius: 0rem;
+    border:none;
+}
+
+.card img{
+    position: relative;
+    float: left;
+    width:  180.33px;
+    height: 175px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 0rem;
+    overflow: hidden;
+    max-width: none !important;
+}
