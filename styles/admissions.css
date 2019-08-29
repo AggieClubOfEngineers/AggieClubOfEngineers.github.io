@@ -26,11 +26,7 @@ hr{
     padding: 1px !important;    
 }
   
-.headshot:hover .overlay {
-    opacity: 0.90;
-}
-
-.headshot:active .overlay {
+.headshot:hover .overlay, .headshot:focus .overlay{
     opacity: 0.90;
 }
 
