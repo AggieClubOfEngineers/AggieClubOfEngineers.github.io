@@ -36,13 +36,13 @@ h5 {
   background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f05);
 }
 
-.navbar a{
-  color: rgba(211, 211, 211, 0.8);
+ .navbar-dark .navbar-nav .nav-link{ /*Override bootstrap nav-item colors */
+  color: rgba(255, 255, 255, 0.787);
 }
 
 .nav-item {
-  margin-left: 1.7rem !important; /* Add more space between nav items */
-  margin-right: 1.7rem !important;
+  margin-left: 3rem !important; /* Add more space between nav items */
+  margin-right: 3rem !important; /* Use 1.7rem with admissions tab, 3rem without it*/
   font-size: 17px;
   text-shadow: 1px 1px #000;
 }
@@ -53,17 +53,8 @@ h5 {
   color: #fff !important;
 }
 
-/* .inactive {
-  color: rgba(255, 255, 255, 0.8) !important;
-} */
-
 .nav-link:hover {
   color: #ffffff !important; /* override bootstrap highlighting */
-}
-
-.navbar.scrolled {
-  background-color: #88bdbc;
-  background-image: none;
 }
 
 #intro {
@@ -129,7 +120,7 @@ h5 {
 
 @media (max-width: 1085px){
   .nav-item{
-    font-size: 12px;
+    font-size: 12px !important;
   }
 }
 
@@ -140,8 +131,8 @@ h5 {
 }
 
 @media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background-image: linear-gradient(#3a424fbf, #3a424f80, #3a424f00);
+  .navbar .top-nav-collapse {
+    background-image: linear-gradient(#5d697aed, #5d697ace, #5d697ab9);
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
