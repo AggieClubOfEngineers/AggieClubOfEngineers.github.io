@@ -59,7 +59,11 @@ h5 {
 
 #intro {
   height: 100vh;
-  background: url("../img/campus_aerial.jpg") no-repeat center center fixed;
+  background: url("../img/campus_aerial.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .title {
@@ -134,7 +138,7 @@ h5 {
     font-size: 2.25rem;
   }
   #intro{
-    background-position: bottom;
+    background-attachment: scroll;
   }
 }
 
