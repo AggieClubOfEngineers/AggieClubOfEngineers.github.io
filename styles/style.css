@@ -128,11 +128,17 @@ h5 {
   .nav-item{
     font-size: 11px; 
   }
+  .title{
+    padding: 0px 0px 0px 0px;
+  }
   .main-title{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .sub-title{
-    font-size: 1.75rem;
+    font-size: 2.25rem;
+  }
+  #intro{
+    background-position: bottom;
   }
 }
 
