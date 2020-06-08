@@ -60,10 +60,6 @@ h5 {
 #intro {
   height: 100vh;
   background: url("../img/campus_aerial.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .title {
