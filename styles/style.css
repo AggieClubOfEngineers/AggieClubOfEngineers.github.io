@@ -126,7 +126,13 @@ h5 {
 
 @media (max-width: 1025px){
   .nav-item{
-    font-size: 11px;
+    font-size: 11px; 
+  }
+  .main-title{
+    font-size: 2rem;
+  }
+  .sub-title{
+    font-size: 1.75rem;
   }
 }
 
