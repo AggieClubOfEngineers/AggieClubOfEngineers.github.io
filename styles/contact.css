@@ -1,32 +1,48 @@
-body{
-  height: 100vh;
-  background: url("../img/zeec.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+    height: 100vh;
+    background: url("../img/zeec.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-hr{
+
+hr {
     width: 50%;
     margin: 0 auto;
     border-color: #ffffff;
 }
 
-main{
-    color: #ffffff; 
-    text-shadow: 1px 1px black;   
+main {
+    color: #ffffff;
+    text-shadow: 1px 1px black;
 }
 
 
-.social-info{
+.social-info {
     background: rgba(40, 56, 69, 0.75);
 }
 
-.email{
+.email {
     color: rgb(183, 183, 183);
 }
 
-.email:hover{
+.email:hover {
     text-decoration: none;
     color: #ffffff;
+}
+
+.column-hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.column-hover:hover {
+    box-shadow: 0px 30px 80px 0 rgba(20, 52, 92, 0.2);
+    border-radius: 5px;
+    border-color: #fff !important;
+    background-color: #fff !important;
 }
