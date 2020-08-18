@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,30 +16,33 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-            <!-- logo left -->
-            <a class="navbar-brand pull-left logo" href="#">
-                <img src="./img/logos/wolf_logo.svg" id="wolf-logo" class="d-inline-block align-top" alt="logo">
-            </a>
-            <!-- to make burger appear -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- logo left -->
+                <a class="navbar-brand pull-left logo" href="#">
+                    <img src="./img/logos/wolf_logo.svg" id="wolf-logo" class="d-inline-block align-top" alt="logo">
+                </a>
+                <!-- to make burger appear -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mx-auto text-center align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="#intro">Home</a>
+                            <a class="nav-link mx-2" href=./index.html>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 smooth-scroll" href="#about-us">About Us</a>
+                            <a class="nav-link mx-2 smooth-scroll" href=./About.html>About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="./camphope.html">Camp Hope</a>
+                            <a class="nav-link mx-2" href="./camphope.html">Service</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="./officers.html">Officers</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 smooth-scroll" href=./Recruitment.html>Recruitment</a>
                         </li>
                     </ul>
                 </div>
@@ -50,133 +53,186 @@
     <main>
         <section class="intro-section container-fluid p-5" id="intro">
             <div class="row justify-content-center align-items-center h-100">
-                <div class="title col-9 text-center animated fadeInDownBig fast">
-                    <h2 class="display-4 font-weight-bold white-text pt-5 text-uppercase main-title">Aggie Club of Engineers</h2>
+                <div class="title col-9 text-center animated fadeInDownBig f">
+                    <h2 class="display-4 font-weight-bold white-text pt-5 text-uppercase main-title" style="color:white">Aggie Club of Engineers</h2>
                     <hr class="border-white">
-                    <h2 class="font-weight-bold text-uppercase sub-title">Texas A&M University</h2>
+                    <h2 class="font-weight-bold text-uppercase sub-title" style="color:white">Texas A&M University</h2>
                 </div>
             </div>
         </section>
     </main>
-    <section  id="about-us">
+    <section id="about-us" style="background-color: rgb(52, 73, 94, 1)" >
         <div class="container py-5 text-center align-items-center justify-content-center">
-           <div class="who-we-are-box">
+            <div class="who-we-are-box" style="background-color: rgb(255, 255, 255, .9)">
                 <div class="row justify-content-center align-items-center px-auto mt-4">
-                        <div class="col-10">
-                            <h2 id="who-we-are" class="text-dark mt-5 ">Who Are We?</h2>
-                            <hr>
-                            <p id="who-we-are-text" class="grey-text width-100 text-justify mb-5">The Aggie Club of Engineers is a social, service, and leadership organization strongly rooted in academics. ACE is founded on the idea that engineers should not only develop strongly in academics but also be of strong character. Our aim is to develop our members into successful Aggies and leaders while improving Aggieland as a whole by giving back to the community.</p>
-                        </div>
+                    <div class="col-10" >
+                        <h2 id="who-we-are" class="text-dark mt-5 ">Who Are We?</h2>
+                        <hr>
+                        <p id="who-we-are-text" class="grey-text width-100 text-justify mb-5">Aggie Club of Engineers is a social, service, and leadership organization strongly rooted in academics. ACE is based on the premise that bringing together student leaders from all levels and disciplines of Engineering will promote success. It is founded on the ideal that engineers should not only develop strongly in academics but also be of strong character. The purpose of Aggie Club of Engineers is to develop our members as successful Aggies and leaders through a primary emphasis on academic success and character development while also improving Aggieland through focuses on service</p>
                     </div>
-                    <div class="row justify-content-center align-items-center px-auto">
-                            <div class="col-9 px-0 pb-5">
-                                    <!-- carousel -->
-                                    <div id="carouselControls" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner carousel-overflow">
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" src="./img/tailgate.jpg" alt="First slide" height="550">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/momsday_2019.jpg" alt="Second slide" height="550">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/ace_anchor_splash.jpeg" alt="Third Slide" height="550">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/ace_songfest.jpeg" alt="Forth slide" height="550">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/ace_ski.jpeg" alt="Fifth Slide" height="550">
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="./img/habitat_1.jpg" alt="Sixth Slide" height="550">
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                    <!-- carousel end -->
+                </div>
+                <div class="row justify-content-center align-items-center px-auto">
+                    <div class="col-9 px-0 pb-5">
+                        <!-- carousel -->
+                        <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner carousel-overflow">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="./img/Songfest2018/IMG_0004.JPG" alt="First slide" height="550">
                                 </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/FormalCorrected.png" alt="Second slide" height="550">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/ace_anchor_splash.jpeg" alt="Third Slide" height="550">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/Songfest2018/IMG_0002.JPG" alt="Forth slide" height="550">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/ace_ski.jpeg" alt="Fifth Slide" height="550">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./img/cp_event2019.png" alt="Sixth Slide" height="550">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- carousel end -->
                     </div>
-           </div>
+                </div>
+            </div>
         </div>
     </section>
     <section>
         <div class="container-fluid pillars py-5">
             <div class="row justify-content-center">
                 <div class="col text-center">
-                <h1 class="mt-5">Our Core Values</h1>
-                    <hr class="border-white mx-5 mb-5">
+                    <h1 class="mt-5">Our Core Values</h1>
+                    <hr class="border-black mx-5 mb-5">
                 </div>
             </div>
             <div class="row text-center mb-5">
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
-                    <img src="./img/logos/networking.svg" alt="leadership" width="125" height="125">
-                    <h4 class="my-4 font-weight-bold text-white">Making A Difference</h4>
-                    <p class="text-white">As demonstrated by personal efforts that lead to making a positive impact on individuals, systems, and/or organizations or positively affecting outcomes.</p>
+                    <img src="img/Loyalty.png" alt="Loyalty" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">Loyalty</h4>
+                    <p class="text-black">We commit to supporting and staying true to our community, the Aggie Family, and the brotherhood we share as members of ACE.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
                     <img src="" alt="">
-                    <img src="./img/logos/brotherhood.svg" alt="brotherhood" width="125" height="125">
-                    <h4 class="my-4 font-weight-bold text-white">Respect</h4>
-                    <p class="text-white">As demonstrated by self respect and respecting others regardless of differences; treating others with dignity, empathy and compassion; and the ability to earn the respect of others.</p>
+                    <img src="img/Leadership.png" alt="Leadership" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">Leadership</h4>
+                    <p class="text-black">We work to develop our members organizational, management, and communication skills through a multitude of leadership opportunities to help them excel in their future endeavours.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
-                        <img src="./img/logos/shield.svg" alt="integrity" width="125" height="125">
-                    <h4 class="my-4 font-weight-bold text-white">Integrity</h4>
-                    <p class="text-white">As demonstrated by moral courage, ethical strength, and trustworthiness; keeping promises and fulfilling expectations.</p>
+                    <img src="img/Integrity.png" alt="integrity" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">Integrity</h4>
+                    <p class="text-black">We hold our members accountable to the highest level of character and moral standards while staying true to ourselves.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
-                        <img src="./img/logos/service.svg" alt="excellence" width="125" height="125">
-                    <h4 class="my-4 font-weight-bold text-white">Service</h4>
-                    <p class="text-white">As demonstrated by commitment that extends beyond one’s own self interest; personal humility for the sake of a greater cause.</p>
+                    <img src="img/Excellence.png" alt="excellence" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">
+                        Excellence
+                    </h4>
+                    <p class="text-black">We strive for excellence in setting and attaining our goals through the holistic development of our members and organization.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
+               
+                <h4 class="my-4 font-weight-bold text-black"></h4>
+                <p class="text-black"></p>
+            </div>
+                <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
+                    <img src="img/Compassion.png" alt="Compassion" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">Compassion</h4>
+                    <p class="text-black"> We aim to show the utmost respect and compassion for the people that surround us on and off campus by displaying great dignity and nobility.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 mb-1 my-2">
+                    <img src="img/Versatility.png" alt="Versatility" width="125" height="125">
+                    <h4 class="my-4 font-weight-bold text-black">Versatility</h4>
+                    <p class="text-black"> We are a diverse and adaptable organization that prides itself in developing our members strongly in academics, character, service, and countless other areas.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section style="background-color: rgb(52, 73, 94, 1)">
         <div class="container py-5">
             <div class="row mt-5">
                 <div class="column mx-auto">
-                    <h2 class="text-dark" id="letter-title" >A Letter From Our President</h2>
-                    <hr id="letter-hr">
+                    <h2 style="color:#f9f4ee;" id="letter-title">A Letter From Our President</h2>
+                    <hr id="letter-hr" style="color:white">
                 </div>
             </div>
             <div class="row" style="margin-top:-120px;">
                 <div class="col letter text-justify mx-auto">
-                    <img src="./img/hs/huck_headshot.jpg" alt="president" class="president-portrait">
+                    <img src="./img/hs/bp2.JPG" alt="president" class="president-portrait">
                     <p class="letter-text p-4 pt-5">
                         &nbsp; &nbsp; The Aggie Club of Engineers started with a handful of guys, looking to start something bigger than themselves. They had worked through their first challenging years of engineering all while being involved in some of the best fraternities and professional organizations A&M has to offer. They were, by all stretches of the word, successful. But they had realized one thing. For all the prestige their organizations boasted, they just didn’t bring engineers together inside and outside of the classroom. They needed something different.
                         <br>
                         <br>
-                        &nbsp; &nbsp; Nine years later, ACE stands as an homage to our founders’ vision. We have joined the ranks of some of the premier men’s organizations on campus, but with a flavor all our own. We have cultivated a culture that allows our members to develop in academics and leadership, while offering the highest caliber professional opportunities and social events. This is made possible by the amazing diversity in our organization. Our members represent over a dozen countries and come from every engineering discipline at Texas A&M. We have Student Senators, Fish Camp Counselors, Muster Committee members, Executives at fraternities and professional organizations, and members of the Student Engineering Council. Each one of us brings a unique experience and background and puts it toward one common goal: To create a place for leaders to thrive. 
+                        &nbsp; &nbsp; Nine years later, ACE stands as an homage to our founders’ vision. We have joined the ranks of some of the premier men’s organizations on campus, but with a flavor all our own. We have cultivated a culture that allows our members to develop in academics and leadership, while offering the highest caliber professional opportunities and social events. This is made possible by the amazing diversity in our organization. Our members represent over a dozen countries and come from every engineering discipline at Texas A&M. We have Student Senators, Fish Camp Counselors, Muster Committee members, Executives at fraternities and professional organizations, and members of the Student Engineering Council. Each one of us brings a unique experience and background and puts it toward one common goal: To create a place for leaders to thrive.
                         <br>
                         <br>
-                        &nbsp; &nbsp;Personally, I cannot overstate the impact ACE has had in developing me through college. It has given me friendships and memories that will last the rest of my time on this Earth. Every tailgate and every retreat, every formal and every meeting. Each one has made me better than the day before. To be chosen by my best friends to continue that mission for other young engineers is the single greatest honor of my life. 
+                        &nbsp; &nbsp;Personally, I cannot overstate the impact ACE has had in developing me through college. It has given me friendships and memories that will last the rest of my time on this Earth. Every tailgate and every retreat, every formal and every meeting. Each one has made me better than the day before. To be chosen by my best friends to continue that mission for other young engineers is the single greatest honor of my life.
                         <br>
                         <br>
                         &nbsp; &nbsp;To be the best, we have to take the best natural born leaders that Dwight Look has to offer. If you think you have what it takes, please check out our admissions tab above. We’d love to get to know you.
                         <br>
                         <br>
-                        For any questions regarding the organization or if you would like to come speak to our members, please contact me at tamuacepresident@gmail.com. 
+                        For any questions regarding the organization or if you would like to come speak to our members, please contact me at tamuacepresident@gmail.com.
                         <br>
                         <br>
-                        Thanks and Gig ‘em, 
+                        Thanks and Gig ‘em,
                         <br>
                         <br>
-                        <i>Alexander Huck</i>
+                        <i>Brennan Passon</i>
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <!---Spacer--->
+    <div class="row text-center text-light p-2" style="background-color:rgb(214, 219, 223, 1) ">
+        
+        <div class="col">
+            <h3>Get in touch!</h3>
+        </div>
+    </div>
+    <!---Footer--->
+    <footer class="row text-center p-3" style="background-color: rgb(52, 73, 94, 1)">
+        <!---Instagram Link--->
+        <div class="col">
+            <a class="text-reset" href="https://www.instagram.com/aggieclubofengineers/">
+                <img src="img/Instagram.png" height="40" width="40" />
+            </a>
+            <a class="text-reset" href="https://www.instagram.com/aggieclubofengineers/">
 
+            </a>
+        </div>
+        <!---LinkedIn Link--->
+        <div class="col">
+            <a class="text-reset" href="https://www.linkedin.com/groups/8488102/">
+                <img src="img/LinkedIn.png" height="40" width="40" />
+            </a>
+            <a class="text-reset" href="https://www.linkedin.com/groups/8488102/">
+
+            </a>
+        </div>
+        <!---Contact Us Link--->
+        <div class="col">
+            <a class="text-reset" href="contact.html">
+                <img class="img-fluid" src="img/Email.png" height="40" width="40" />
+            </a>
+            <a class="text-reset" href="contact.html">
+
+            </a>
+        </div>
+    </footer>
     <script src="logic/logic.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -46,6 +46,26 @@ hr{
     background-attachment: fixed;
     height: 23vw;
 }
+.parallax2 {
+    background: url('../img/CookingForHopeBanner.JPG') no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 23vw;
+}
+.parallax3 {
+    background: url('../img/BSBBanner.JPG') no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 23vw;
+}
+.parallax4 {
+    background: url('../img/BGC.jpg') no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 23vw;
+}
+
+
 
 .hor-stripes{
     width: 100%;

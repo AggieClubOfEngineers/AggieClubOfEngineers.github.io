@@ -13,7 +13,7 @@ h3,
 h4,
 h5 {
   font-weight: bold;
-  color: #fff;
+  color: black;
 }
 
 #wolf-logo {
@@ -63,7 +63,7 @@ h5 {
 
 #intro {
   height: 100vh;
-  background: url("../img/campus_aerial.jpg") no-repeat center center;
+  background: url("../img/BackgroundImages/NightZach.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +93,7 @@ img {
 }
 
 .pillars {
-  background-color: #283845;
+    background-color: rgb(214, 219, 223, .9);
 }
 
 .letter {
@@ -116,9 +116,10 @@ img {
 }
 
 .blank-space {
-  width: 100%;
-  height: 10vw;
-  background-color: #fff;
+    width: 100%;
+    height: 1000vw;
+    background-color: #fff;
+    background-image: linear-gradient(#5d697aed, #5d697ace, #5d697ab9);
 }
 
 @media (max-width: 1175px) {
