@@ -110,6 +110,11 @@
     background-size: cover;
 }
 
+.cursiveFont {
+    font-family:'URW Chancery L','Monotype Corsiva','Apple Chancery','ITC Zapf Chancery',cursive;
+    color: whitesmoke;
+}
+
 
 
 

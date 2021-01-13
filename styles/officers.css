@@ -63,21 +63,21 @@ body {
     text-align: center;
 }
 
-.card{
-    border-radius: 0rem;
-    border:none;
-    height: 350px;
-    width: 275px;
-}
+/*.card{*/
+/*    border-radius: 0rem;*/
+/*    border:none;*/
+/*    height: 350px;*/
+/*    width: 275px;*/
+/*}*/
 
-.card img{
-    position: relative;
-    float: left;
-    height: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0rem;
-    overflow: hidden;
-    max-width: none !important;
-}
+/*.card img{*/
+/*    position: relative;*/
+/*    float: left;*/
+/*    height: 100%;*/
+/*    background-position: 50% 50%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    border-radius: 0rem;*/
+/*    overflow: hidden;*/
+/*    max-width: none !important;*/
+/*}*/
